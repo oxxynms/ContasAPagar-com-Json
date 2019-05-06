@@ -101,7 +101,7 @@ public class SelectMySQL extends ConnectMySQL {
             
             
             
-            //BackSpace
+            //BackSpace, remove os ultimos 3 chars do arquivo
             StringBuilder sb = new StringBuilder(this.getResult());
             int comp = sb.length();
             

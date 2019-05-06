@@ -28,7 +28,7 @@ public class ConnectMySQL {
             
             Class.forName(driveName);
 
-             
+            
             String url = "jdbc:mysql://localhost:3306/mySQL?useTimezone=true&serverTimezone=UTC";
             String login = "root";
             String pwd = "";
